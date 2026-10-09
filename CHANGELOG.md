@@ -2,9 +2,10 @@
 
 ## 0.3.0 — em desenvolvimento, sem lançamento oficial
 
-### 2026-10-08 — preparação do envio inicial ao GitHub
+### 2026-10-08 — envio inicial ao GitHub concluído
 
-- Usuário autorizou primeiro commit e push para `main` em `rmc12304/tidyup`. Revisão dos arquivos e verificações finais antes do envio.
+- Primeiro commit e push para `main` em `rmc12304/tidyup` concluídos com autorização do usuário. Commit inicial: [`eaafb03`](https://github.com/rmc12304/tidyup/commit/eaafb033f9826b786caae6b763bb34147b531752). Conteúdo enviado: 51 arquivos de código, testes, documentação e inicializadores; sem dados operacionais ou pacotes gerados.
+- Verificação final: 60 testes passaram no Linux, sintaxe Python/JavaScript aprovada e teste de interface aprovado. Hash da branch remota conferido. Privacidade de e-mail preservada usando endereço `noreply` nos commits; configurações da conta GitHub não foram alteradas.
 - Estado do código separado do estado de lançamento: enviar ao GitHub não significa criar release ou habilitar limpeza operacional.
 - `.gitignore` ampliado para impedir inclusão acidental de bancos, relatórios nativos, metadados de instância e arquivos de ambiente. Pacotes gerados continuam fora do Git; podem ser reconstruídos com `python3 tools/build_local.py`.
 

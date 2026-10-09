@@ -1,6 +1,6 @@
 # Tidyup 0.3.0
 
-**Estado do projeto:** versão em desenvolvimento, sem lançamento oficial. O envio inicial do código para a branch `main` do GitHub está autorizado e em preparação. A validação do fluxo 0.3.0 no Windows continua pendente.
+**Estado do projeto:** versão em desenvolvimento, sem lançamento oficial. O código está disponível na branch [`main` do GitHub](https://github.com/rmc12304/tidyup/tree/main), com envio inicial confirmado em 2026-10-08. A validação do fluxo 0.3.0 no Windows continua pendente.
 
 Aplicativo local de revisão de arquivos, em português do Brasil, independente do PM Cockpit. Inventário real somente leitura, comparação SHA-256 por conteúdo, evidências lado a lado, seleção individual, revisão final e armazenamento local.
 

@@ -1,6 +1,6 @@
 # Backlog
 
-Atualizado em 2026-10-08. Versão atual: 0.3.0 em desenvolvimento, sem lançamento oficial. Primeiro envio do código ao GitHub autorizado e em preparação; validação Windows pendente.
+Atualizado em 2026-10-08. Versão atual: 0.3.0 em desenvolvimento, sem lançamento oficial. Código enviado ao GitHub na branch `main`; validação Windows pendente.
 
 Objetivo: entregar um aplicativo local que abra por duplo clique, revise arquivos e envie somente os itens escolhidos à Lixeira do Windows. O HTML isolado permite visualizar a interface; as operações dependem do componente local.
 

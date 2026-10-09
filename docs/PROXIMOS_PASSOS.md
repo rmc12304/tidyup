@@ -1,6 +1,6 @@
 # Próximos passos
 
-Atualizado em 2026-10-08. Integração 0.3.0 implementada e testada sinteticamente na nuvem. Primeiro commit e push para `main` autorizados e em preparação. Após o envio, a próxima ação funcional é executar o runner do fluxo no Windows; limpeza normal ainda bloqueada.
+Atualizado em 2026-10-08. Integração 0.3.0 implementada e testada sinteticamente na nuvem. Primeiro commit e push para `main` concluídos; o código pode ser acessado por outras sessões conectadas ao repo. A próxima ação funcional é executar o runner do fluxo no Windows; limpeza normal ainda bloqueada.
 
 ## Ordem proposta
 
