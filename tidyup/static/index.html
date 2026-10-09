@@ -1,0 +1,19 @@
+<!doctype html>
+<html lang="pt-BR">
+<head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>Tidyup · Revisão local</title><link rel="stylesheet" href="/style.css"><script src="/app.js" defer></script></head>
+<body>
+<header><a class="brand" href="/">◈ tidyup</a><span>LOCAL · SEM UPLOADS</span><button id="shutdown" class="secondary">Encerrar aplicativo</button></header>
+<main>
+<div class="intro"><p class="eyebrow">SEUS ARQUIVOS, SUA DECISÃO</p><h1>Revise antes de limpar.</h1><p>Compare o conteúdo, veja as evidências e decida arquivo por arquivo.</p></div>
+<aside id="capability" class="notice" role="status"></aside>
+<div class="actions"><button id="native-diagnostics" class="secondary">Verificar compatibilidade com a Lixeira</button><span id="native-status" role="status"></span></div>
+<section aria-labelledby="roots-title" class="panel"><h2 id="roots-title">1. Escolha o escopo</h2>
+<form id="roots"><label>Origem<input id="source" required placeholder="Caminho absoluto da pasta a revisar" autocomplete="off"></label><label>Referências somente leitura<textarea id="references" required rows="2" placeholder="Um caminho absoluto por linha"></textarea></label><label class="check"><input id="recursive" type="checkbox"> Incluir subpastas de todas as raízes</label><p class="muted">Nenhum disco é pesquisado automaticamente. Links e conteúdo sob demanda são bloqueados. Origem, referências e diretório de dados devem ser separados.</p><button type="submit">Validar raízes</button></form>
+<div id="validated"></div><div class="actions"><button id="scan" disabled>Iniciar inventário somente leitura</button><button id="resume" class="secondary" hidden>Retomar e revalidar</button><button id="cancel" class="secondary" hidden>Cancelar</button></div></section>
+<p id="error" class="error" role="alert"></p>
+<section aria-labelledby="review-title"><div class="section-top"><h2 id="review-title">2. Revise as evidências</h2><span id="progress" role="status" aria-live="polite">Aguardando inventário</span></div><div id="summary" class="stats"></div><p class="muted">A igualdade verificada cobre o conteúdo principal SHA-256 no escopo escolhido. Não comprova metadados ou fluxos especiais. Cache não autoriza movimentação.</p><div id="scope-errors"></div><div id="items"><p class="empty">Configure as raízes para começar. Nada começa selecionado.</p></div><nav class="pagination" aria-label="Páginas de arquivos"><button id="prev" class="secondary" disabled>Anterior</button><span id="page"></span><button id="next" class="secondary" disabled>Próxima</button></nav></section>
+<section class="panel"><h2>Histórico local</h2><button id="history" class="secondary">Consultar resultados por arquivo</button><div id="history-items"></div></section>
+</main>
+<footer class="selection"><div><strong id="selected-count">0 arquivos selecionados</strong><small id="selected-bytes">0 B · A Lixeira pode continuar ocupando disco.</small></div><button id="review" disabled>Revisar seleção</button></footer>
+<dialog id="final-review" aria-labelledby="final-title"><h2 id="final-title">3. Confira a lista exata</h2><p>As referências permanecem intactas. Arquivos sem cópia são descartes excepcionais, não deduplicação segura.</p><div id="plan-items"></div><p class="notice">Recuperação pela Lixeira depende do sistema e não é garantida. Não há prazo fixo de retenção. Pastas sincronizadas podem propagar a remoção para a nuvem e outros dispositivos.</p><p id="plan-status" role="status"></p><div class="actions"><button id="back" class="secondary">Voltar à revisão</button><button id="execute" disabled>Mover para a Lixeira</button></div></dialog>
+</body></html>

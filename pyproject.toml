@@ -1,0 +1,9 @@
+[project]
+name = "tidyup-local"
+version = "0.3.0"
+description = "Revisão local e segura de cópias de arquivos"
+requires-python = ">=3.12"
+dependencies = []
+
+[tool.tidyup]
+schema_version = 1

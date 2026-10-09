@@ -1,0 +1,6 @@
+{
+  "schema_version": 1,
+  "source": "/dados-exemplo/origem",
+  "references": ["/dados-exemplo/arquivo"],
+  "recursive": false
+}
